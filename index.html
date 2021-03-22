@@ -20,18 +20,20 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="row no-gutters">
         <div class="col-sm-3 col-md-6 col-lg-4 no-gutters">
             <div class="leftside no-gutters">
-                <img src="profile_img.jpg" alt="sorry!!" style="height: 100vh; width: 100%; background-size: cover;">
+                <img src="Profile_image.jpg" alt="sorry!!" style="height: 100vh; width: 100%; background-size: cover;">
             </div>
         </div>
         <div class="col-sm-9 col-md-6 col-lg-8 no-gutters">
             <div class="rightside no-gutters">
-                <section id="home">
+                <div class="header" style="position: fixed; z-index: 2; width: 100%;">
                     <nav>
                         <ul class="list">
                             <li><a href="#home">HOME</a></li>
@@ -40,6 +42,8 @@
                             <li><a href="#contact">CONTACT</a></li>
                         </ul>
                     </nav>
+                </div>
+                <section id="home">
                     <h1>WEB DEVELOPER</h1>
                     <h2>UMANG AGARAWAL</h2>
                     <h6>Hi, My name is Umang Agarawal. I am a Web Developer.<br> I care deeply over the User Interface
@@ -50,27 +54,19 @@
                     </h6>
                     <div class="row">
                         <div class="col-md-6">
-                            <p><b>Birthday:</b> 23rd November 1999</p>
-                            <p><b>Languages:</b> Hindi, English, Marwari</p>
-                            <p><b>Mail:</b> agarawalumang09@gmail.com</p>
+                            <p><b>Birthday : </b>23rd November 1999</p>
+                            <p><b>Languages : </b>Hindi, English, Marwari</p>
+                            <p><b><i class="fas fa-envelope"></i></b>   agarawalumang09@gmail.com</p>
                         </div>
                         <div class="col-md-6">
-                            <p><b>Place:</b> Jabalpur, MP</p>
-                            <p><b>Degree:</b> Bachelor's of Technology</p>
-                            <p><b>Linkedin:</b> umang-agarawal-9a3b60188</p>
+                            <p><b>Place : </b>Jabalpur, MP</p>
+                            <p><b>Degree : </b>Bachelor's of Technology</p>
+                            <p><b><i class="fab fa-linkedin"></i></b>  umang-agarawal-9a3b60188</p>
                         </div>
                     </div>
                     <div class="line"></div>
                 </section>
                 <section id="resume">
-                    <nav>
-                        <ul class="list">
-                            <li><a href="#home">HOME</a></li>
-                            <li><a href="#resume">RESUME</a></li>
-                            <li><a href="#portfolio">PORTFOLIO</a></li>
-                            <li><a href="#contact">CONTACT</a></li>
-                        </ul>
-                    </nav>
                     <h1>RESUME</h1>
                     <h2>EDUCATION</h2>
                     <div class="row">
@@ -87,73 +83,65 @@
                         </div>
                         <div class="col-md-6">
                             <p><b><br>CGPA:</b> 8.59</p>
-                            <p><b><br><br>Percentage:</b> 57.6%</p>
-                            <p><b><br><br>Percentage:</b> 72.2%</p>
+                            <p><b><br><br>Percentage : </b> 57.6%</p>
+                            <p><b><br><br>Percentage : </b> 72.2%</p>
                         </div>
                     </div>
                     <h2>CERTIFICATES</h2>
                     <div class="row" style="padding-top: 10px;">
                         <div class="col-md-6">
-                            <p><b>Oracle Academy:</b> Java Foundation Course Certification</p>
-                            <p><b>CISCO Netacad:</b> Introduction to C Programming Certification</p>
+                            <p><b>Oracle Academy : </b> Java Foundation Course Certification</p>
+                            <p><b>CISCO Netacad : </b> Introduction to C Programming Certification</p>
                         </div>
                         <div class="col-md-6">
-                            <p><b>TCS Digital ION:</b> Career Edge - Knockdown the Lockdown Certification</p>
-                            <p><b>HP LIfe E-learning:</b> Effective Leadership Certification</p>
+                            <p><b>TCS Digital ION : </b> Career Edge - Knockdown the Lockdown Certification</p>
+                            <p><b>HP LIfe E-learning : </b> Effective Leadership Certification</p>
                         </div>
                     </div>
                     <div class="line"></div>
                 </section>
                 <section id="portfolio">
-                    <nav>
-                        <ul class="list">
-                            <li><a href="#home">HOME</a></li>
-                            <li><a href="#resume">RESUME</a></li>
-                            <li><a href="#portfolio">PORTFOLIO</a></li>
-                            <li><a href="#contact">CONTACT</a></li>
-                        </ul>
-                    </nav>
                     <h1>PORTFOLIO</h1>
                     <h2>PROJECTS</h2>
                     <div class="container">
                         <div class="row">
-                            <div class="col" style="padding-left: 55px; padding-top: 3px;">
-                                <div class="card" style="width: 15rem; height: 12rem; border: 1px solid orange;">
-                                    <img class="card-img-top" src="p1.png" alt="Card image cap">
+                            <div class="col" style="padding-left: 55px; padding-top: 35px;">
+                                <div class="card" style="width: 18rem; height: 15rem; border: 1px solid orange;">
+                                    <img class="card-img-top" src="p1.png" alt="Card image cap" id="imggg">
                                     <div class="card-body">
                                         <a href="https://github.com/agarawalumang99/Assignment_1a"
-                                            class="btn btn-outline-success"
+                                            class="btn btn-outline-warning"
                                             style="font-family: 'Oswald', sans-serif;">Get Git Link</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" style="padding-left: 55px; padding-top: 3px;">
-                                <div class="card" style="width: 15rem; height: 12rem; border: 1px solid orange;">
-                                    <img class="card-img-top" src="p2.png" alt="Card image cap">
+                            <div class="col" style="padding-top: 35px;">
+                                <div class="card" style="width: 18rem; height: 15rem; border: 1px solid orange;">
+                                    <img class="card-img-top" src="p2.png" alt="Card image cap" id="imggg">
                                     <div class="card-body">
                                         <a href="https://github.com/agarawalumang99/Assignment_2"
-                                            class="btn btn-outline-success"
+                                            class="btn btn-outline-warning"
                                             style="font-family: 'Oswald', sans-serif;">Get Git Link</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="w-100"></div>
-                            <div class="col" style="padding-left: 55px; padding-top: 3px;">
-                                <div class="card" style="width: 15rem; height: 12rem; border: 1px solid orange;">
-                                    <img class="card-img-top" src="p3.png" alt="Card image cap">
+                            <div class="col" style="padding-left: 55px; padding-top: 35px;">
+                                <div class="card" style="width: 18rem; height: 15rem; border: 1px solid orange;">
+                                    <img class="card-img-top" src="p3.png" alt="Card image cap" id="imggg">
                                     <div class="card-body">
                                         <a href="https://github.com/agarawalumang99/Assignment_3"
-                                            class="btn btn-outline-success"
+                                            class="btn btn-outline-warning"
                                             style="font-family: 'Oswald', sans-serif;">Get Git Link</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col" style="padding-left: 55px; padding-top: 3px;">
-                                <div class="card" style="width: 15rem; height: 12rem; border: 1px solid orange;">
-                                    <img class="card-img-top" src="p4.png" alt="Card image cap">
+                            <div class="col" style="padding-top: 35px;">
+                                <div class="card" style="width: 18rem; height: 15rem; border: 1px solid orange;">
+                                    <img class="card-img-top" src="p4.png" alt="Card image cap" id="imggg">
                                     <div class="card-body">
                                         <a href="https://github.com/agarawalumang99/Assignment_4"
-                                            class="btn btn-outline-success"
+                                            class="btn btn-outline-warning"
                                             style="font-family: 'Oswald', sans-serif;">Get Git Link</a>
                                     </div>
                                 </div>
@@ -162,25 +150,17 @@
                     </div>
                 </section>
                 <section id="contact">
-                    <nav>
-                        <ul class="list">
-                            <li><a href="#home">HOME</a></li>
-                            <li><a href="#resume">RESUME</a></li>
-                            <li><a href="#portfolio">PORTFOLIO</a></li>
-                            <li><a href="#contact">CONTACT</a></li>
-                        </ul>
-                    </nav>
                     <h1>LOCATION</h1>
                     <h2>CONTACT ME</h2>
                     <h6>Hey There! If hiring please make a contact here.!!</h6>
                     <div class="row">
                         <div class="col-md-6">
-                            <p><b>Phone:</b>+91-8989898989</p>
-                            <p><b>Email-ID:</b>agarawalumang09@gmail.com</p>
+                            <p><b><i class="fas fa-mobile-alt"></i></b> +91-8989898989</p>
+                            <p><b><i class="fas fa-envelope"></i></b><a class="emailID" href="mailto:someone@example.com" style="text-decoration: none;">  agarawalumang09@gmail.com</a></p>
                         </div>
                         <div class="col-md-6">
-                            <p><b>Pincode:</b>482002</p>
-                            <p><b>Address:</b>Vijay Nagar, Jabalpur(M.P.)</p>
+                            <p><b><i class="fas fa-map-pin"></i></b>  482002</p>
+                            <p><b><i class="fas fa-map-marker-alt"></i></b> Vijay Nagar, Jabalpur(M.P.)</p>
                         </div>
                     </div>
                     <br>
