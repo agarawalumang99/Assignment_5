@@ -121,3 +121,8 @@
   .rightside #imggg{
       border: 1px solid white;
   }
+
+  .rightside .certificate{
+      width: 30px;
+      height: 30px;
+  }
